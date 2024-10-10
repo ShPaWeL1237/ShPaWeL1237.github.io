@@ -1,0 +1,77 @@
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    min-width: 630px;
+}
+a{
+    text-decoration: none;
+}
+
+.page-header{
+    width: 100%;
+    height: 120px;
+
+    display: grid;
+    grid-template-columns: 120px auto 300px;
+    grid-template-rows: 120px;
+    grid-template-areas: "logo nav btn";
+    gap: 10px;
+    place-items: center;
+
+    background-image: url("../img/wood.jpg");
+    background-size: cover;
+
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #947655; 
+}
+.page-header__logo{
+    grid-area:"logo";
+}
+.page-header__logo-icon{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.page-header__nav{
+    grid-area:"nav";
+    padding: 20px;
+    text-align: center;
+}
+.page-header__btn{
+    grid-area:"btn";
+}
+.page-header__btn-img{
+    max-width: 100%;   /* Отзывчивый дизайн */
+    max-height: 100%;
+    height: auto; 
+    padding: 0px;
+    object-fit: cover;
+}
+.btn{
+    width: 80%;
+    height: 60%;
+    padding: 20px;
+
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: #89251a; 
+    background-color: #bc3324;
+}
+.page-header__nav-link{
+    padding: 20px;
+    color: black;
+}
+
+h1{
+    color: red;
+}
+h1::before{
+    content: '<';
+}
+h1::after{
+    content: '>';
+}
+h1::first-letter{
+    color: rgb(25, 15, 49) !important;
+}
