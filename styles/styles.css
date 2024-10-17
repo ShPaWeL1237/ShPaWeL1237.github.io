@@ -1,14 +1,21 @@
+body{
+    background-color: #1f1f20;
+}
 header{
+    position: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     min-width: 630px;
 }
 a{
+    color: #aaaaaa;
     text-decoration: none;
 }
-
+P{
+    color: #777777;
+}
 .page-header{
-    width: 100%;
+    width: 99%;
     height: 120px;
 
     display: grid;
@@ -18,12 +25,12 @@ a{
     gap: 10px;
     place-items: center;
 
-    background-image: url("../img/wood.jpg");
+    background-color: #252528;
     background-size: cover;
 
-    border: 1px solid;
+    border: 5px solid;
     border-radius: 20px;
-    border-color: #947655; 
+    border-color: #333336; 
 }
 .page-header__logo{
     grid-area:"logo";
@@ -39,6 +46,7 @@ a{
     text-align: center;
 }
 .page-header__btn{
+    justify-content: center;
     grid-area:"btn";
 }
 .page-header__btn-img{
@@ -54,24 +62,11 @@ a{
     padding: 20px;
 
     border: 2px solid;
-    border-radius: 20px;
-    border-color: #89251a; 
-    background-color: #bc3324;
+    border-radius: 10px;
+    border-color: #333333; 
+    background-color: #333333;
 }
 .page-header__nav-link{
     padding: 20px;
-    color: black;
-}
 
-h1{
-    color: red;
-}
-h1::before{
-    content: '<';
-}
-h1::after{
-    content: '>';
-}
-h1::first-letter{
-    color: rgb(25, 15, 49) !important;
 }
