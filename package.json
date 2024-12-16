@@ -1,0 +1,46 @@
+{
+  "name": "shpawel1237.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShPaWeL1237/ShPaWeL1237.github.io.git"
+  },
+  "keywords": [
+    "lenny art"
+  ],
+  "author": "Павел",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShPaWeL1237/ShPaWeL1237.github.io/issues"
+  },
+  "homepage": "https://github.com/ShPaWeL1237/ShPaWeL1237.github.io#readme",
+  "description": "course junior frontend-developer",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^5.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-format-html": "^1.2.5",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-terser": "^2.1.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "postcss": "^8.4.5",
+    "postcss-sort-media-queries": "^4.2.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "start": "gulp start"
+  }
+}
